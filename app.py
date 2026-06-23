@@ -33,15 +33,18 @@ with tab1:
         st.markdown("### 震度凡例")
         legend_html = """
         <div style="display: flex; flex-direction: column; width: 120px; border: 1px solid #ddd; padding: 8px; border-radius: 8px; background-color: #f9f9f9;">
-            <div style="background-color: #b0000a; color: white; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px;">7</div>
-            <div style="background-color: #e40001; color: white; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px;">6</div>
-            <div style="background-color: #fd3304; color: white; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px;">5</div>
-            <div style="background-color: #fd8906; color: white; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px;">4</div>
-            <div style="background-color: #fdde05; color: black; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px;">3</div>
-            <div style="background-color: #fdfd02; color: black; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px;">2</div>
-            <div style="background-color: #d5ff14; color: black; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px;">1</div>
-            <div style="background-color: #7fff00; color: black; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px;">0</div>
-        </div>
+    <div style="background-color: #b0000a; color: white; padding: 2px 0; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px; font-size: 14px;">7</div>
+    <div style="background-color: #e40001; color: white; padding: 2px 0; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px; font-size: 14px;">6</div>
+    <div style="background-color: #fd3304; color: white; padding: 2px 0; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px; font-size: 14px;">5</div>
+    <div style="background-color: #fd8906; color: white; padding: 2px 0; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px; font-size: 14px;">4</div>
+    <div style="background-color: #fdde05; color: black; padding: 2px 0; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px; font-size: 14px;">3</div>
+    <div style="background-color: #fdfd02; color: black; padding: 2px 0; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px; font-size: 14px;">2</div>
+    <div style="background-color: #d5ff14; color: black; padding: 2px 0; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px; font-size: 14px;">1</div>
+    <div style="background-color: #7fff00; color: black; padding: 2px 0; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px; font-size: 14px;">0</div>
+    <div style="background-color: #04c593; color: black; padding: 2px 0; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px; font-size: 14px;">-1</div>
+    <div style="background-color: #0447e9; color: black; padding: 2px 0; text-align: center; font-weight: bold; margin-bottom: 3px; border-radius: 3px; font-size: 14px;">-2</div>
+    <div style="background-color: #0304ca; color: white; padding: 2px 0; text-align: center; font-weight: bold; border-radius: 3px; font-size: 14px;">-3</div>
+</div>
         """
         st.markdown(legend_html, unsafe_allow_html=True)
         st.markdown("### 最新の地震履歴")
