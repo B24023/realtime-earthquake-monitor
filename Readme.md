@@ -12,5 +12,9 @@
   - P2P地震情報 API (津波情報)
 
 ### 画面イメージ
-![強震モニタ画面](images/monitor.png)
-![津波情報画面(展示用デモ版を使用)](images/tsunami.png)
+
+**強震モニタ**
+<img src="images/monitor.png" width="500">
+
+**津波情報画面(画像はデモ版の画面です)**
+<img src="images/tsunami.png" width="500">
