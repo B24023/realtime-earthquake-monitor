@@ -104,7 +104,7 @@ while is_running:
                 max_int = intensity_map.get(max_int_code, f"震度{max_int_code}" if max_int_code != "-" else "不明")
                 mag = str(eq.get("mag", "不明"))
                 if max_int_code in ["5-", "5+", "6-", "6+", "7"]:
-                    lines.append(f"🔴 {formatted_time} \n┗ **{anm} ({max_int} / M{mag})**")
+                    lines.append(f"🔴 {formatted_time}  \n┗ {anm} ({max_int} / M{mag})")
                 else:
                     lines.append(f"🔵 {formatted_time}  \n┗ {anm} ({max_int} / M{mag})")
             
